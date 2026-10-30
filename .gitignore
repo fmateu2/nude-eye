@@ -1,0 +1,13 @@
+build/
+out/
+*.class
+*.iml
+.idea/
+.DS_Store
+sources.txt
+
+# Local course dependencies and credentials
+lib/*.jar
+.env
+.env.*
+!.env.example

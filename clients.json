@@ -1,0 +1,13 @@
+[
+  {
+    "client_id": 1,
+    "client_type": "InPersonClient",
+    "full_name": "Demo Customer",
+    "phone_numbers": [
+      {
+        "country_prefix": "+34",
+        "number": "000000000"
+      }
+    ]
+  }
+]

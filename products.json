@@ -1,0 +1,35 @@
+[
+  {
+    "product_id": "GLS-001",
+    "product_name": "Demo frames",
+    "product_type": "Glasses",
+    "brand": "Example",
+    "model": "Classic"
+  },
+  {
+    "product_id": "CNT-001",
+    "product_name": "Demo contact lenses",
+    "product_type": "ContactLens",
+    "brand": "Example",
+    "model": "Daily",
+    "prescription": -1.0,
+    "number_of_lenses": 30,
+    "uv_filter": true
+  },
+  {
+    "product_id": "CON-001",
+    "product_name": "Demo lens solution",
+    "product_type": "Consumable",
+    "brand": "Example",
+    "model": "Care",
+    "volume_ml": 100.0,
+    "expiration_date": "2030-12-31",
+    "contains_preservatives": false
+  },
+  {
+    "product_id": "SRV-001",
+    "product_name": "Demo fitting session",
+    "product_type": "Service",
+    "completion_time_hours": 1.5
+  }
+]

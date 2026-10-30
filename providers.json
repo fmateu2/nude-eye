@@ -1,0 +1,32 @@
+[
+  {
+    "provider_id": 1,
+    "company_name": "Example Optical",
+    "cif": "DEMO-ONLY",
+    "contact_name": "Demo Contact",
+    "phone": "000000000",
+    "email": "supplier@example.invalid",
+    "products_for_sale": [
+      {
+        "product_id": "GLS-001",
+        "selling_price": 40.0,
+        "units_in_stock": 10
+      },
+      {
+        "product_id": "CNT-001",
+        "selling_price": 40.0,
+        "units_in_stock": 10
+      },
+      {
+        "product_id": "CON-001",
+        "selling_price": 40.0,
+        "units_in_stock": 10
+      },
+      {
+        "product_id": "SRV-001",
+        "selling_price": 40.0,
+        "units_in_stock": 10
+      }
+    ]
+  }
+]
