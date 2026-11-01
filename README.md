@@ -49,7 +49,9 @@ This is startup mode selection. It is not replication, transactional failover or
 
 ## Build and run
 
-Use JDK 21. Binary dependencies are not distributed. First obtain authorized copies of the course API and geolocation libraries and the official `json-simple` 1.1.1 distribution; see [`lib/README.md`](lib/README.md). Place them in `lib/` locally. The source will not compile without these dependencies. Run from the project root so relative data paths resolve correctly.
+**Availability:** this GitHub repository is a source and design portfolio. Building it requires separately obtained course dependencies; the independent browser pricing demo is available in the portfolio.
+
+Use a JDK compatible with your dependency copies. The course binaries supplied with the original project require **JDK 25** (class-file version 69); JDK 21 cannot load those binaries. Binary dependencies are not distributed here. First obtain authorized copies of the course API and geolocation libraries and the official `json-simple` 1.1.1 distribution; see [`lib/README.md`](lib/README.md). Place them in `lib/` locally. The source will not compile without these dependencies. Run from the project root so relative data paths resolve correctly.
 
 macOS/Linux:
 
@@ -92,12 +94,12 @@ The original course endpoint is omitted. `Main` defaults to `http://localhost:80
 
 The portfolio case study is based on source inspection and the report. The interactive pricing illustration reproduces the source formulas in JavaScript; it is not the Java application running in the browser.
 
-Java compilation and application execution were not performed in the portfolio environment because a JDK was unavailable. Build commands and the additional local entry point should be checked in a JDK-equipped environment before relying on them. No remote API operations were performed.
+Compilation and full application execution with the required dependencies and JDK 25 have not been verified. Source inspection and the independent pricing demo do not establish that the complete Java application runs. Build commands and the additional local entry point should be checked in a JDK-equipped environment before relying on them. No remote API operations were performed.
 
 Further engineering work would include unit tests for pricing and persistence, a controllable clock for expiry rules, decimal money handling instead of floating-point values, and stronger authentication and transaction handling for any real deployment.
 
 ## Credits and packaging
 
-The original Java implementation is retained. Packaging adds this README, `LocalMain.java`, a clean ignore file and fresh sample data. IDE state, compiled outputs, duplicated files and original customer/sales records are omitted. Course binaries and remote service addresses are omitted from the public package. Java execution still requires the dependencies and JDK validation described above.
+The original Java implementation is retained. Packaging adds this README, `LocalMain.java`, a clean ignore file and fresh sample data. IDE state, compiled outputs, duplicated files and original customer/sales records are omitted. Course binaries and remote service addresses are omitted from the public package. The website download includes a separately prepared dependency bundle, while this GitHub repository intentionally omits course binaries. Use the instructions for the package you obtain; compatibility and reuse permissions must be checked for any supplied dependencies.
 
 No individual component ownership is claimed beyond the joint authorship in the report. No new licence is assigned to the project or the separately obtained course dependencies; retain their original terms and obtain author permission for reuse.
