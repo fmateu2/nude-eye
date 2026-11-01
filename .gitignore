@@ -7,7 +7,20 @@ out/
 sources.txt
 
 # Local course dependencies and credentials
-lib/*.jar
+*.jar
 .env
 .env.*
 !.env.example
+
+# Local secrets and private key material
+secrets/
+credentials.json
+credentials.*.json
+*.pem
+*.key
+*.p12
+*.pfx
+*.jks
+*.keystore
+id_rsa
+id_ed25519
